@@ -9,6 +9,7 @@ public class ComPlayer extends Player {
 		rival = mans;
 	}
 	//モードのセット　引数:何回戦目
+	@Override
 	public void prepare(int count) {
 		//2敗している場合インチキ（勝ち）モードに突入
 		if (rival.getScore() >= 2 && count <= 3) {
@@ -18,6 +19,7 @@ public class ComPlayer extends Player {
 			cheatplay.setMode(NORMAL);
 		}
 	}
+	@Override
 	public int play(int count) {
 		cheatplay.putout();
 	}

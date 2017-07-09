@@ -5,6 +5,7 @@ import java.io.InputStreamReader;
 
 public class ManPlayer extends Player{
 	//入力する 引数：何回戦目
+	@Override
 	public void play(int count) {
 		int you = -1;
 		while (you < 0 || you > 2) {
