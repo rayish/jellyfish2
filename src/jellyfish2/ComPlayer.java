@@ -14,7 +14,7 @@ public class ComPlayer extends Player {
 		//2敗している場合インチキ（勝ち）モードに突入
 		if (rival.getScore() >= 2 && count <= 3) {
 			cheatplay.setMode(WIN);
-			cheatplay.setRivalCode(raival.playcode);
+			cheatplay.setRivalCode(rival.playcode);
 		} else {
 			cheatplay.setMode(NORMAL);
 		}
