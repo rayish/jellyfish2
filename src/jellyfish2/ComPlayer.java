@@ -1,4 +1,5 @@
 package jellyfish2;
+import static jellyfish2.Cheaters.*;
 
 public class ComPlayer extends Player {
 	private Cheaters cheatplay;		//インチキモードジャンケン

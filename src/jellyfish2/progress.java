@@ -17,7 +17,7 @@ public class progress {
 			}
 			//じゃんけんをする
 			for (int j = 0; j < players.size(); j++) {
-				Player player = (Player) plaayers.get(j);
+				Player player = (Player) players.get(j);
 				player.play(i);		//引数は何戦目か
 			}
 		}

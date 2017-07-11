@@ -23,10 +23,8 @@ public class Cheaters extends RockPaper{
 		switch(mode) {
 		case WIN:
 			return (rivalCode - 1 + 3) % 3;
-			break;
 		case LOSE:
 			return (rivalCode - 2 + 3) % 3;
-			break;
 		default:
 			return super.putout();
 		}
